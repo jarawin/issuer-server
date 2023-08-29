@@ -1,0 +1,21 @@
+server:
+  port: 1234
+  servlet:
+    contextPath: /api
+
+spring:
+  jpa:
+    open-in-view: false
+    hibernate:
+      show_sql: true
+      ddl-auto: update
+      
+  datasource:
+    url: jdbc:mysql://localhost:3306/issuer
+    username: jarawin
+    password: '0987652021'
+
+  security:
+    user:
+      name: jarawin
+      password: '0987652021'
