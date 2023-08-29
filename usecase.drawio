@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-29T12:50:06.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="skOBsByrssaL8JG7zuV7" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-29T13:06:09.032Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NytRNM-tjexl0B0FgNNC" version="21.6.9" type="github">
   <diagram name="Page-1" id="O6h59sN97J3MhCvtdeix">
-    <mxGraphModel dx="2639" dy="2245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1607" dy="1585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -310,11 +310,38 @@
             <mxPoint x="-424" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EAtn4QmAmyuskcIKKUx5-109" value="ส่งคำร้องขอหักเงิน" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="20" width="200" height="60" as="geometry" />
+        <mxCell id="EAtn4QmAmyuskcIKKUx5-110" value="15.1. ตรวจสอบยอดเงิน และวงเงิน" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EAtn4QmAmyuskcIKKUx5-110" value="ตรวจสอบยอดเงิน และเครดิต" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="-80" width="200" height="60" as="geometry" />
+        <mxCell id="EAtn4QmAmyuskcIKKUx5-112" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="EAtn4QmAmyuskcIKKUx5-110" target="EAtn4QmAmyuskcIKKUx5-33">
+          <mxGeometry x="-0.0009" width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="140" as="sourcePoint" />
+            <mxPoint x="60" y="60" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EAtn4QmAmyuskcIKKUx5-113" value="3.1. ตรวจสอบข้อมูลนำเข้า" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-620" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EAtn4QmAmyuskcIKKUx5-114" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="EAtn4QmAmyuskcIKKUx5-113" target="EAtn4QmAmyuskcIKKUx5-31">
+          <mxGeometry x="-0.0009" width="160" relative="1" as="geometry">
+            <mxPoint x="204" y="-510" as="sourcePoint" />
+            <mxPoint x="63" y="-590" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EAtn4QmAmyuskcIKKUx5-115" value="3.2. แปลงชนิดข้อมูลเป็น JSON" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-620" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EAtn4QmAmyuskcIKKUx5-116" value="3.2. แปลงชนิดข้อมูลเป็น JSON" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="-460" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EAtn4QmAmyuskcIKKUx5-117" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt;" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="EAtn4QmAmyuskcIKKUx5-115">
+          <mxGeometry x="-0.0009" width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="-580" as="sourcePoint" />
+            <mxPoint x="400" y="-590" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
