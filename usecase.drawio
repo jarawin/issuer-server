@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-31T14:24:47.674Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="8tBqf3NTcOowL6jck6SB" version="21.7.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-31T14:24:57.084Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="AnSMr8OZcnSWQa6_gIlN" version="21.7.0" type="github" pages="4">
   <diagram name="usecase" id="O6h59sN97J3MhCvtdeix">
     <mxGraphModel dx="2458" dy="2150" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -820,7 +820,7 @@
             <mxPoint x="430" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1dq6ik5V4VwwEfY45Juy-16" value="แสดงรายการ Acquirer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1dq6ik5V4VwwEfY45Juy-16" value="เข้าสู่หน้า Register" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="340" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1dq6ik5V4VwwEfY45Juy-25" value="กรอก Username&lt;br&gt;password และ email" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
