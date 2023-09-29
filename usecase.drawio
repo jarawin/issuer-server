@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-28T14:53:12.360Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="zPpBHzWdOjOE1lAeXmy3" version="21.8.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2023-09-29T05:56:09.685Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="bBzmLqZtGhOgx43zK-3x" version="21.8.2" type="github" pages="15">
   <diagram name="usecase" id="O6h59sN97J3MhCvtdeix">
     <mxGraphModel dx="1834" dy="1730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -3398,6 +3398,448 @@
               <mxPoint x="500" y="310" />
               <mxPoint x="500" y="330" />
               <mxPoint x="570" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vZO2FNt9J-qiOkYKs0T4" name="Page-15">
+    <mxGraphModel dx="2639" dy="1145" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tyCSrynDwUqDOGTID9mo-1" value="ระบบ&amp;nbsp;ระบบบริการชำระเงินและการตรวจจับการฉ้อโกง" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-2" value="จัดการข้อมูล Acquirer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="370" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-3" value="เพิ่มข้อมูล Acquirer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-4" value="ลบข้อมูล Acquirer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-5" value="อัพเดตข้อมูล Acquirer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-6" value="เรียกดูข้อมูล Acquirer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyCSrynDwUqDOGTID9mo-2" target="tyCSrynDwUqDOGTID9mo-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-420" y="320" as="sourcePoint" />
+            <mxPoint x="-370" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-470" y="470" />
+              <mxPoint x="-390" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-390" y="470" as="sourcePoint" />
+            <mxPoint x="-190" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-230" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-470" y="470" as="sourcePoint" />
+            <mxPoint x="-380" y="521" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-470" y="470" />
+              <mxPoint x="-550" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-645" y="470" as="sourcePoint" />
+            <mxPoint x="-730" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-550" y="470" />
+              <mxPoint x="-710" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-12" value="จัดการข้อมูลบัตรเครดิต" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="370" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-13" value="เพิ่มข้อมูลบัตรเครดิต" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-14" value="ลบข้อมูลบัตรเครดิต" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-15" value="อัพเดตข้อมูลบัตรเครดิต" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-16" value="เรียกดูข้อมูลบัตรเครดิต" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyCSrynDwUqDOGTID9mo-12" target="tyCSrynDwUqDOGTID9mo-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="320" as="sourcePoint" />
+            <mxPoint x="290" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="470" />
+              <mxPoint x="270" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="470" as="sourcePoint" />
+            <mxPoint x="470" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="470" as="sourcePoint" />
+            <mxPoint x="280" y="521" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="470" />
+              <mxPoint x="110" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="15" y="470" as="sourcePoint" />
+            <mxPoint x="-70" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="470" />
+              <mxPoint x="-50" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-21" value="จัดการข้อมูลธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="370" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-22" value="เพิ่มข้อมูลธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-23" value="ลบข้อมูลธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-24" value="อัพเดตข้อมูลธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-25" value="เรียกดูข้อมูลธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyCSrynDwUqDOGTID9mo-21" target="tyCSrynDwUqDOGTID9mo-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="320" as="sourcePoint" />
+            <mxPoint x="950" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="470" />
+              <mxPoint x="930" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="470" as="sourcePoint" />
+            <mxPoint x="1130" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="470" as="sourcePoint" />
+            <mxPoint x="940" y="521" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="470" />
+              <mxPoint x="770" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="470" as="sourcePoint" />
+            <mxPoint x="590" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="470" />
+              <mxPoint x="610" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-30" value="จัดการการตั้งค่าการระงับบัตรเครดิต" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="370" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-32" value="เพิ่มตั้งค่า" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-33" value="ลบการตั้งค่า" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyCSrynDwUqDOGTID9mo-30" target="tyCSrynDwUqDOGTID9mo-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1400" y="320" as="sourcePoint" />
+            <mxPoint x="1450" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1350" y="470" />
+              <mxPoint x="1430" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="470" as="sourcePoint" />
+            <mxPoint x="1440" y="521" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1350" y="470" />
+              <mxPoint x="1270" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-44" value="แสดงข้อมูลบัตรเครดิต&lt;br&gt;ตามตัวกรอง" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyCSrynDwUqDOGTID9mo-16" target="tyCSrynDwUqDOGTID9mo-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-46" value="แสดงข้อมูลธุรกรรม&lt;br&gt;ตามตัวกรอง" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1089.58" y="570" as="sourcePoint" />
+            <mxPoint x="1089.58" y="610" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-48" value="นำออกข้อมูลธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-50" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="470" as="sourcePoint" />
+            <mxPoint x="690" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-51" value="นำเข้าข้อมูลธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-52" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="849.71" y="470" as="sourcePoint" />
+            <mxPoint x="849.71" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-53" value="เปรียบเทียบข้อมูลธุรกรรม และเลือกผสานข้อมูล" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="710" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="849.6399999999999" y="670" as="sourcePoint" />
+            <mxPoint x="849.6399999999999" y="710" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-55" value="แสดงแดชบอร์ด&lt;br&gt;สถิติการใช้งานบัตรเครดิต" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-56" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="470" as="sourcePoint" />
+            <mxPoint x="330" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-57" value="แสดงแดชบอร์ด&lt;br&gt;สถิติการใช้งานบัตรเครดิต" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-58" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-470.42" y="470" as="sourcePoint" />
+            <mxPoint x="-470.42" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-59" value="แสดงข้อมูล Acquirer&lt;br&gt;ตามตัวกรอง" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-60" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-230" y="570" as="sourcePoint" />
+            <mxPoint x="-220" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-61" value="จัดการการทำธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="370" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-62" value="ทำธุรกรรม Sale" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-63" value="ทำธุรกรรม Deposit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-64" value="ยกเลิกธุรกรรม&lt;br&gt;Void, Reverse, Refund" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-65" value="ยืนยันข้อมูลการทำธุรกรรม&lt;br&gt;Settlement, Batch-upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyCSrynDwUqDOGTID9mo-61" target="tyCSrynDwUqDOGTID9mo-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2040" y="320" as="sourcePoint" />
+            <mxPoint x="2090" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1990" y="470" />
+              <mxPoint x="2070" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-67" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2070" y="470" as="sourcePoint" />
+            <mxPoint x="2270" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2230" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-68" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1990" y="470" as="sourcePoint" />
+            <mxPoint x="2080" y="521" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1990" y="470" />
+              <mxPoint x="1910" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-69" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1815" y="470" as="sourcePoint" />
+            <mxPoint x="1730" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1910" y="470" />
+              <mxPoint x="1750" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-70" value="ตรวจสอบ และยืนยัน&lt;br&gt;รายการธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tyCSrynDwUqDOGTID9mo-65" target="tyCSrynDwUqDOGTID9mo-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2240" y="480" as="sourcePoint" />
+            <mxPoint x="2240" y="520" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-72" value="จัดการตรวจสอบ การระงับบัตรเครดิตอัตโนมัติ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-74" value="จัดการตรวจสอบ การระงับบัตรเครดิตอัตโนมัติ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-75" value="จัดการตรวจสอบ ยอดเงินและวงเงินบัตร" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="710" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-76" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1749.68" y="570" as="sourcePoint" />
+            <mxPoint x="1749.68" y="610" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1749.68" y="670" as="sourcePoint" />
+            <mxPoint x="1749.68" y="710" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-78" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1909.8000000000002" y="570" as="sourcePoint" />
+            <mxPoint x="1909.8000000000002" y="610" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-82" value="ย้อนกลับผลลัพธ์&lt;br&gt;การทำธุรกรรม" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="610" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-83" value="เรียกดูสถานะธุกรรม&lt;br&gt;inquiry" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-84" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1655" y="470" as="sourcePoint" />
+            <mxPoint x="1590" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1750" y="470" />
+              <mxPoint x="1590" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-85" value="ธุรกรรมชำระค่าบัตรเครดิต&lt;br&gt;credit card bill payment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="510" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-86" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2230" y="470" as="sourcePoint" />
+            <mxPoint x="2390" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2390" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-87" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="290" as="sourcePoint" />
+            <mxPoint x="850" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-89" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="330" as="sourcePoint" />
+            <mxPoint x="200" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-90" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="330" as="sourcePoint" />
+            <mxPoint x="-470" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-470" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-91" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="tyCSrynDwUqDOGTID9mo-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="330" as="sourcePoint" />
+            <mxPoint x="530" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1350" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tyCSrynDwUqDOGTID9mo-92" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1350" y="330" as="sourcePoint" />
+            <mxPoint x="1990" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1990" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
